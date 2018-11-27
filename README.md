@@ -22,11 +22,11 @@ This will install the dependencies (in particular 1.8.x version of connect.js).
 
 Once installed, run (on port 80):
 
-    node server.js
+    node lib/index.js
 
 Or to run on a specific port (like 8080):
 
-    node server.js 8080
+    node lib/index.js 8080
 
 Then check your own ip address of the machine it's running on (using `ipconfig` for windows or `ifconfig` for mac and linux). Then on the mobile phone, just visit that IP address and port you're running jsconsole on:
 
